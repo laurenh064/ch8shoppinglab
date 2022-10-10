@@ -14,8 +14,8 @@ function outputCartRow(item, total) {
     <td><img src="images/${filename}" alt="${title}"></td>
     <td>${title}</td>
     <td>${quantity}</td>
-    <td>${price}</td>
-    <td>${total}</td>
+    <td>$${price.toFixed(2)}</td>
+    <td>$${total.toFixed(2)}</td>
     </tr>`;
     document.write(row);
 
